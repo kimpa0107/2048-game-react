@@ -6,10 +6,8 @@ import './main.scss';
 import './styles.scss';
 
 const App = () => {
-  return (
-    <BoardView />
-  );
+  return <BoardView />;
 };
 const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
+const root = createRoot(container);
 root.render(<App />);
